@@ -13,7 +13,7 @@
 > <https://github.com/amazeui/amazeui>
 
 
-### download
+## download
 
     git clone https://github.com/vxhly/scss-flex.git
 
