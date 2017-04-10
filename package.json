@@ -18,7 +18,8 @@
     "base-scss",
     "flexbox",
     "flex.css",
-    "flex"
+    "flex",
+    "normalize"
   ],
   "author": "vxhly <904334946@qq.com>",
   "license": "ISC",
