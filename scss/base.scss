@@ -1,0 +1,22 @@
+/*!
+ * base-flex.scss
+ *
+ * @vaersion 2.1.1
+ * @author 欧鹏程 vxhly <904334946@qq.com>
+ *
+ * 参考地址：
+ * 语法：scss
+ *
+ * @description 重置浏览器默认的一些样式，包含 flexbox 布局
+ */
+@import "clean"; // 清除内外边距
+@import "box"; // 使用 box-sizing 盒子模型
+@import "text"; // 重置文本样式
+@import "font"; // 重置字体样式
+@import "list"; // 重置列表样式
+@import "form"; // 重置表单样式
+@import "table"; // 重置表格样式
+@import "video"; // 重置 H5 视频标签样式
+@import "print"; // 打印样式
+@import "media"; // 自适应设置
+@import "flex"; // 支持 flexbox 布局

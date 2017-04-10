@@ -1,0 +1,26 @@
+/**
+ * [重置 H5 视频标签]
+ */
+
+audio,
+canvas,
+progress,
+video {
+  display       : inline-block;
+  vertical-align: baseline;
+}
+
+/**
+ * [当没有 controls 时的样式]
+ */
+audio:not([controls]) {
+  display: none;
+  height : 0;
+}
+
+/**
+ * [设置其根元素隐藏]
+ */
+svg:not(:root) {
+  overflow: hidden;
+}

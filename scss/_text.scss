@@ -1,0 +1,117 @@
+/**
+ * [重置字体样式]
+ */
+html {
+  font-size               : 100%;
+  overflow-y              : scroll;
+  -ms-text-size-adjust    : 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+/**
+ * [重置超链接样式及超链接各个伪类的样式]
+ */
+
+a {
+  color                       : #12c2e9;
+  background-color            : transparent;
+  -webkit-text-decoration-skip: objects;
+
+  &:hover {
+    /**
+     * [鼠标指针浮动的链接]
+     */
+    text-decoration: underline;
+    color          : #317023;
+  }
+
+  &:visited {
+    /**
+     * [已被访问的链接]
+     */
+    text-decoration: none;
+    color          : #12c2e9;
+  }
+
+  &:focus {
+    /**
+     * [选取获得焦点的链接]
+     */
+    outline       : thin dotted;
+    outline       : 1px auto -webkit-focus-ring-color;
+    outline-offset: -2px;
+  }
+
+  &:active,
+  &:hover {
+    /**
+     * [清楚点击边框]
+     */
+    outline-width: 0;
+  }
+}
+
+/**
+ * [重置上标的对齐方式]
+ */
+sup {
+  vertical-align: text-top;
+}
+
+/**
+ * [重置下标的对齐方式]
+ */
+sub {
+  vertical-align: text-bottom;
+}
+
+/**
+ * [移除底边框， 使更多浏览器支持 text-decoration]
+ */
+abbr[title] {
+  border-bottom  : 1px dotted;
+  text-decoration: underline dotted;
+}
+
+/**
+ * [文本被选中时的样式]
+ */
+::-moz-selection,
+::selection {
+  background : #12C2E9;
+  color      : #FFF;
+  text-shadow: none;
+}
+
+/**
+ * [移除 text-decoration]
+ */
+a,
+ins {
+  text-decoration: none;
+}
+
+/**
+ * [重置背景色]
+ */
+ins,
+mark {
+  background: #ffa;
+  color     : #333333;
+}
+
+/**
+ * [重置鼠标样式]
+ */
+abbr[title],
+dfn[title] {
+  cursor: help;
+}
+
+/**
+ * [重置样式]
+ */
+dfn[title] {
+  border-bottom: 1px dotted;
+  font-style   : normal;
+}

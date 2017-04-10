@@ -1,0 +1,12 @@
+/**
+ * [当窗口发生改变时的样式]
+ */
+@media only screen and (max-width: 640px) {
+  body {
+    word-wrap      : break-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens    : auto;
+    -moz-hyphens   : auto;
+    hyphens        : auto;
+  }
+}

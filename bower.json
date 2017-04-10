@@ -1,0 +1,28 @@
+{
+  "name": "base-css",
+  "description": "重置浏览器默认的一些样式，包含 flexbox 布局，使用 scss 语法编写",
+  "main": "dist/base.css",
+  "authors": [
+    "vxhly <904334946@qq.com>"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "base.css",
+    "scss",
+    "css",
+    "base-css",
+    "base-scss",
+    "flexbox",
+    "flex.css",
+    "flex"
+  ],
+  "homepage": "https://github.com/vxhly/base-css#readme",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

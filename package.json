@@ -1,0 +1,40 @@
+{
+  "name": "base-css",
+  "version": "2.1.1",
+  "description": "重置浏览器默认的一些样式，包含 flexbox 布局，使用 scss 语法编写",
+  "main": "dist/base.css",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vxhly/base-css.git"
+  },
+  "keywords": [
+    "base.css",
+    "scss",
+    "css",
+    "base-css",
+    "base-scss",
+    "flexbox",
+    "flex.css",
+    "flex"
+  ],
+  "author": "vxhly <904334946@qq.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vxhly/base-css/issues"
+  },
+  "homepage": "https://github.com/vxhly/base-css#readme",
+  "dependencies": {
+    "autoprefixer": "^6.7.7",
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-cssbeautify": "^0.1.3",
+    "gulp-csscomb": "^3.0.8",
+    "gulp-load-plugins": "^1.5.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0"
+  }
+}
