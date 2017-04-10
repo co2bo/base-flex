@@ -1,5 +1,5 @@
 {
-  "name": "base-css",
+  "name": "base-flex",
   "version": "2.1.1",
   "description": "重置浏览器默认的一些样式，包含 flexbox 布局，使用 scss 语法编写",
   "main": "dist/base.css",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vxhly/base-css.git"
+    "url": "git+ssh://github.com/vxhly/base-css.git"
   },
   "keywords": [
     "base.css",
