@@ -1,6 +1,6 @@
 {
   "name": "base-flex",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "description": "重置浏览器默认的一些样式，包含 flexbox 布局，使用 scss 语法编写",
   "main": "dist/base.css",
   "scripts": {

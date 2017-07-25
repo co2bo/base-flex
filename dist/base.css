@@ -2,7 +2,7 @@
 /*!
  * base-flex.scss
  *
- * @vaersion 2.1.1
+ * @vaersion 2.1.2
  * @author 欧鹏程 vxhly <904334946@qq.com>
  *
  * 参考地址：
@@ -122,6 +122,22 @@ p,
 pre,
 ul {
   margin: 0 0 1.6rem;
+}
+
+/**
+ * [重置行内元素]
+ */
+span,
+a,
+b,
+img,
+font,
+i,
+q,
+code,
+big {
+  display: inline-block;
+  margin: .5rem 0;
 }
 
 /**

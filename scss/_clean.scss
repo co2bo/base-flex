@@ -111,3 +111,19 @@ pre,
 ul {
   margin: 0 0 1.6rem;
 }
+
+/**
+ * [重置行内元素]
+ */
+span,
+a,
+b, 
+img,
+font,
+i,
+q,
+code,
+big {
+  margin: .5rem 0;
+  display: inline-block;
+}
