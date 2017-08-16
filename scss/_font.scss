@@ -1,39 +1,39 @@
 /**
  * [设置默认字号，定义高亮]
  */
+
 html {
-  font-size                  : 12px;
+  font-size: 16px;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-
 /**
  * [重置字体样式]
  */
+
 body {
   font-family: "Segoe UI","Lucida Grande",Helvetica,Arial,"Microsoft YaHei",FreeSans,Arimo,"Droid Sans","wenquanyi micro hei","Hiragino Sans GB","Hiragino Sans GB W3",FontAwesome,sans-serif;
   font-weight: 400;
   line-height: 1.6;
-  color      : #333;
-  font-size  : 1.6rem;
-  background : #fff;
+  color: #333;
+  background: #fff;
 }
-
 /**
  * [重置标题字体样式]
  */
+
 h1,
 h2,
 h3,
 h4,
 h5,
 h6 {
-  margin     : 0 0 1.6rem;
+  margin: 0 0 1rem;
   font-weight: 600;
 }
-
 /**
  * [重置 Html5 字体样式]
  */
+
 address,
 cite,
 dfn,
@@ -41,71 +41,75 @@ em,
 var {
   font-style: normal italic;
 }
-
 /**
  * [将斜体扶正]
  */
+
 code,
 kbd,
 pre,
 samp {
   font-family: Monaco, Menlo, Consolas, "Courier New", "FontAwesome", monospace;
-  font-size  : 1em;
+  font-size: 1em;
 }
-
 /**
  * [统一等宽字体]
  */
+
 small {
   font-size: 80%;
 }
-
 /**
  * [重置代码专用标签样式]
  */
+
 code,
 kbd,
 pre,
 samp {
   font-family: monospace, monospace;
-  font-size  : 1em;
+  font-size: 1em;
 }
-
 /**
  * [重置 mark 背景色]
  */
+
 mark {
   background: #ff0;
-  color     : #000;
+  color: #000;
 }
-
 /**
  * [重置粗体样式]
  */
+
 b,
 strong {
   font-weight: inherit;
 }
-
 /**
  * 重置上标和下标
  */
+
 sub,
 sup {
-  font-size  : 75%;
+  font-size: 75%;
   line-height: 0;
 }
-
 /**
  * 提高所有浏览器中预格式化文本的可读性
  */
+
 pre {
   white-space: pre-wrap;
 }
-
 /**
  * 设置一致的 quote 类型
  */
+
 q {
   quotes: "\201C" "\201D" "\2018" "\2019";
+}
+
+i {
+  font-size: 1.3rem;
 }

@@ -2,7 +2,7 @@
 /*!
  * base-flex.scss
  *
- * @vaersion 2.1.2
+ * @vaersion 2.2.0
  * @author 欧鹏程 vxhly <904334946@qq.com>
  *
  * 参考地址：
@@ -121,23 +121,31 @@ ol,
 p,
 pre,
 ul {
-  margin: 0 0 1.6rem;
+  margin: 0 0 1rem;
 }
 
 /**
  * [重置行内元素]
  */
-span,
 a,
 b,
-img,
+big,
+code,
 font,
 i,
+img,
 q,
-code,
-big {
+span,
+time {
   display: inline-block;
-  margin: .5rem 0;
+  margin: .3rem 0;
+}
+
+/**
+ * [清除点击效果]
+ */
+*:focus {
+  outline: none;
 }
 
 /**
@@ -248,6 +256,8 @@ sub {
 abbr[title] {
   text-decoration: underline dotted;
   border-bottom: 1px dotted;
+  -webkit-text-decoration: underline dotted;
+  -moz-text-decoration: underline dotted;
 }
 
 /**
@@ -304,7 +314,7 @@ dfn[title] {
  * [设置默认字号，定义高亮]
  */
 html {
-  font-size: 12px;
+  font-size: 16px;
   -webkit-tap-highlight-color: transparent;
 }
 
@@ -313,7 +323,6 @@ html {
  */
 body {
   font-family: 'Segoe UI','Lucida Grande',Helvetica,Arial,'Microsoft YaHei',FreeSans,Arimo,'Droid Sans','wenquanyi micro hei','Hiragino Sans GB','Hiragino Sans GB W3',FontAwesome,sans-serif;
-  font-size: 1.6rem;
   font-weight: 400;
   line-height: 1.6;
   color: #333;
@@ -330,7 +339,7 @@ h4,
 h5,
 h6 {
   font-weight: 600;
-  margin: 0 0 1.6rem;
+  margin: 0 0 1rem;
 }
 
 /**
@@ -410,6 +419,10 @@ pre {
  */
 q {
   quotes: '\201C' '\201D' '\2018' '\2019';
+}
+
+i {
+  font-size: 1.3rem;
 }
 
 /**
@@ -785,33 +798,6 @@ svg:not(:root) {
 }
 
 /**
- * [定义 inline-flex 布局]
- */
-[inline-flex] {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-  overflow: hidden;
-}
-
-[inline-flex] > *,
-[inline-flex] > [inline-flex] {
-  overflow: hidden;
-}
-
-[inline-flex] > * {
-  display: inline-block;
-}
-
-[inline-flex] > [inline-flex] {
-  display: -webkit-inline-box;
-  display: -webkit-inline-flex;
-  display: -ms-inline-flexbox;
-  display: inline-flex;
-}
-
-/**
  * [主轴方向：从左到右(默认)]
  */
 [flex~='dir:left'] {
@@ -878,11 +864,20 @@ svg:not(:root) {
 /**
  * [主轴对齐方式：两端对齐]
  */
-[flex~='main:justify'] {
+[flex~='main:between'] {
   -webkit-box-pack: justify;
   -webkit-justify-content: space-between;
   -ms-flex-pack: justify;
   justify-content: space-between;
+}
+
+/**
+ * [主轴对齐方式：分散对齐]
+ */
+[flex~='main:around'] {
+  -webkit-justify-content: space-around;
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
 }
 
 /**

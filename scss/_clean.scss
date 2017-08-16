@@ -1,6 +1,7 @@
 /**
  * [清除内外边距]
  */
+
 blockquote,
 body,
 button,
@@ -26,13 +27,13 @@ td,
 textarea,
 th,
 ul {
-  margin : 0;
+  margin: 0;
   padding: 0;
 }
-
 /**
  * [重置 HTML5 元素]
  */
+
 article,
 aside,
 audio,
@@ -51,54 +52,54 @@ summary,
 time,
 video {
   display: block;
-  margin : 0;
+  margin: 0;
   padding: 0;
 }
-
 /**
  * [隐藏属性]
  */
+
 [hidden],
 script,
 template {
   display: none;
 }
-
 /**
  * [重置 H5 画板]
  */
+
 canvas {
   display: inline-block;
 }
-
 /**
  * [重置 summary]
  */
+
 summary {
   display: list-item;
 }
-
 /**
  * [重置 img 样式]
  */
-img {
-  border                : 0;
-  -ms-interpolation-mode: bicubic;
-  vertical-align        : middle;
-}
 
+img {
+  border: 0;
+  -ms-interpolation-mode: bicubic;
+  vertical-align: middle;
+}
 /**
  * [设置高度，超出自动隐藏]
  */
+
 body,
 html {
   min-height: 100%;
-  overflow  : hidden;
+  overflow: hidden;
 }
-
 /**
  * [重置 H5 元素的边距]
  */
+
 address,
 blockquote,
 dl,
@@ -109,21 +110,28 @@ ol,
 p,
 pre,
 ul {
-  margin: 0 0 1.6rem;
+  margin: 0 0 1rem;
 }
-
 /**
  * [重置行内元素]
  */
-span,
+
 a,
-b, 
-img,
+b,
+big,
+code,
 font,
 i,
+img,
 q,
-code,
-big {
-  margin: .5rem 0;
+span,
+time {
+  margin: 0.3rem 0;
   display: inline-block;
+}
+/**
+ * [清除点击效果]
+ */
+*:focus {
+  outline: none;
 }
