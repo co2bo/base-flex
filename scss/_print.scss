@@ -1,24 +1,24 @@
 /** 屏幕(screen)和打印(print)的样式表 **/
 @media print {
   * {
-    background        : transparent !important;
-    color             : black !important;
-    text-shadow       : none !important;
+    background: transparent !important;
+    color: black !important;
+    text-shadow: none !important;
     filter: none !important;
     -ms-filter: none !important;
-    color             : #000 !important;
-    text-shadow       : none !important;
-    background        : transparent !important;
+    color: #000 !important;
+    text-shadow: none !important;
+    background: transparent !important;
     -webkit-box-shadow: none !important;
-    box-shadow        : none !important;
+    box-shadow: none !important;
 
-    &:after,
-    &:before {
-      color             : #000 !important;
-      text-shadow       : none !important;
-      background        : transparent !important;
+    &::after,
+    &::before {
+      color: #000 !important;
+      text-shadow: none !important;
+      background: transparent !important;
       -webkit-box-shadow: none !important;
-      box-shadow        : none !important;
+      box-shadow: none !important;
     }
   }
 
@@ -29,23 +29,23 @@
       text-decoration: underline;
     }
 
-    &[href]:after {
+    &[href]::after {
       content: " (" attr(href) ")";
     }
 
-    &[href^="#"]:after,
-    &[href^="javascript:"]:after {
+    &[href^="#"]::after,
+    &[href^="javascript:"]::after {
       content: "";
     }
   }
 
-  abbr[title]:after {
+  abbr[title]::after {
     content: " (" attr(title) ")";
   }
 
   blockquote,
   pre {
-    border           : 1px solid #CCC;
+    border: 1px solid #CCC;
     page-break-inside: avoid;
   }
 
@@ -66,7 +66,7 @@
   h3,
   p {
     orphans: 3;
-    widows : 3;
+    widows: 3;
   }
 
   h2,
