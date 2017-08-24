@@ -2,7 +2,7 @@
 /*!
  * base-flex.scss
  *
- * @vaersion 2.2.5
+ * @vaersion 2.3.0
  * @author 欧鹏程 vxhly <904334946@qq.com>
  *
  * 参考地址：
@@ -157,8 +157,8 @@ time {
   box-sizing: border-box;
 }
 
-*:after,
-*:before {
+*::after,
+*::before {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
@@ -695,8 +695,8 @@ svg:not(:root) {
     -ms-filter: none !important;
   }
 
-  *:after,
-    *:before {
+  *::after,
+    *::before {
     color: #000 !important;
     background: transparent !important;
     -webkit-box-shadow: none !important;
@@ -712,16 +712,16 @@ svg:not(:root) {
     text-decoration: underline;
   }
 
-  a[href]:after {
+  a[href]::after {
     content: ' (' attr(href) ')';
   }
 
-  a[href^='#']:after,
-    a[href^='javascript:']:after {
+  a[href^='#']::after,
+    a[href^='javascript:']::after {
     content: '';
   }
 
-  abbr[title]:after {
+  abbr[title]::after {
     content: ' (' attr(title) ')';
   }
 
