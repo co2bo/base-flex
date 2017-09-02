@@ -23,7 +23,7 @@
     "normalize"
   ],
   "author": "vxhly <904334946@qq.com>",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/vxhly/base-flex/issues"
   },
